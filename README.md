@@ -3,9 +3,9 @@
 This repository holds the code for the paper "USP7 controls NGN3 stability and pancreatic endocrine lineage development".
 
 ## Data Preparation 
-- Raw data were obtained from Yu et al 2021 (https://www.nature.com/articles/s41422-021-00486-w).
-- Quality control and clustering of the dataset was performed following the HumanFoetalPancreas_Preprocessing.R script.
-- Figures were created following the Figures.R script.
+- Raw data can be obtained from Yu et al 2021 (https://www.nature.com/articles/s41422-021-00486-w).
+- Quality control and clustering of the dataset can be performed following the HumanFoetalPancreas_Preprocessing.R script.
+- Figures can be recreated following the Figures.R script.
 
 ## System Requirements 
 - This code has been tested on macOS Big Sur 11.5.1
