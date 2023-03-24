@@ -1,6 +1,5 @@
 # Human Foetal Pancreas
 
-## Info
 This repo holds the code for the paper "USP7 controls NGN3 stability and pancreatic endocrine lineage development".
 
 ## Data Preparation 
