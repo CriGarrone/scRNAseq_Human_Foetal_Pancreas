@@ -1,4 +1,4 @@
-# Session info for re analysis of Human foetal pancreas dataset by Yu et al 2021
+# Session info for re analysis of human foetal pancreas dataset by Yu et al 2021
 
 > sessionInfo()
 R version 4.1.1 (2021-08-10)
