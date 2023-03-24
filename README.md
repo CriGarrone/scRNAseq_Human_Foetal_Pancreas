@@ -5,11 +5,11 @@ This repo holds the code for the paper "USP7 controls NGN3 stability and pancrea
 
 ## Data Preparation 
 Raw data were obtained from Yu et al 2021 (https://www.nature.com/articles/s41422-021-00486-w).
-Quality control and clustering can be found from ... script
+Quality control and clustering of the dataset can be found in the HumanFoetalPancreas_Preprocessing.R script
 
 ## System Requirements 
 - This code has been tested on macOS Big Sur 11.5.1
-- R version *****add
+- R version 4.1.1 (2021-08-10)
 
 ## Abstract
 Understanding the factors and mechanisms involved in beta-cell development will guide therapeutic efforts to generate fully functional beta cells for diabetes. 
