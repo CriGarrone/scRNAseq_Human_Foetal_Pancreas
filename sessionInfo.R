@@ -1,0 +1,66 @@
+# Session info for re analysis of Human foetal pancreas dataset by Yu et al 2021
+
+> sessionInfo()
+R version 4.1.1 (2021-08-10)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Big Sur 11.5.1
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+
+locale:
+  [1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
+
+attached base packages:
+  [1] parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+  [1] forcats_0.5.1               stringr_1.4.0               purrr_0.3.4                
+[4] readr_2.1.2                 tidyr_1.2.0                 tibble_3.1.6               
+[7] tidyverse_1.3.1             dplyr_1.0.8                 DESeq2_1.32.0              
+[10] SummarizedExperiment_1.22.0 Biobase_2.52.0              MatrixGenerics_1.4.3       
+[13] matrixStats_0.61.0          GenomicRanges_1.44.0        GenomeInfoDb_1.28.4        
+[16] IRanges_2.26.0              S4Vectors_0.30.2            BiocGenerics_0.38.0        
+[19] clustree_0.4.4              ggraph_2.0.5                ggplot2_3.3.5              
+[22] SeuratObject_4.0.4          Seurat_4.1.0               
+
+loaded via a namespace (and not attached):
+  [1] utf8_1.2.2             reticulate_1.24        tidyselect_1.1.2       RSQLite_2.2.11        
+[5] AnnotationDbi_1.54.1   htmlwidgets_1.5.4      grid_4.1.1             BiocParallel_1.26.2   
+[9] Rtsne_0.15             devtools_2.4.3         munsell_0.5.0          codetools_0.2-18      
+[13] ica_1.0-2              DT_0.21                future_1.24.0          miniUI_0.1.1.1        
+[17] withr_2.5.0            spatstat.random_2.1-0  colorspace_2.0-3       rstudioapi_0.13       
+[21] ROCR_1.0-11            tensor_1.5             listenv_0.8.0          GenomeInfoDbData_1.2.6
+[25] polyclip_1.10-0        bit64_4.0.5            farver_2.1.0           rprojroot_2.0.2       
+[29] parallelly_1.30.0      vctrs_0.3.8            generics_0.1.2         R6_2.5.1              
+[33] graphlayouts_0.8.0     locfit_1.5-9.5         bitops_1.0-7           spatstat.utils_2.3-0  
+[37] cachem_1.0.6           DelayedArray_0.18.0    assertthat_0.2.1       promises_1.2.0.1      
+[41] scales_1.1.1           gtable_0.3.0           globals_0.14.0         processx_3.5.3        
+[45] goftest_1.2-3          tidygraph_1.2.0        rlang_1.0.2            genefilter_1.74.1     
+[49] splines_4.1.1          lazyeval_0.2.2         broom_0.7.12           spatstat.geom_2.3-2   
+[53] modelr_0.1.8           BiocManager_1.30.16    reshape2_1.4.4         abind_1.4-5           
+[57] backports_1.4.1        httpuv_1.6.5           tools_4.1.1            usethis_2.1.5         
+[61] ellipsis_0.3.2         spatstat.core_2.4-0    RColorBrewer_1.1-2     sessioninfo_1.2.2     
+[65] ggridges_0.5.3         Rcpp_1.0.8.3           plyr_1.8.7             zlibbioc_1.38.0       
+[69] RCurl_1.98-1.6         ps_1.6.0               prettyunits_1.1.1      rpart_4.1.16          
+[73] deldir_1.0-6           pbapply_1.5-0          viridis_0.6.2          cowplot_1.1.1         
+[77] zoo_1.8-9              haven_2.4.3            ggrepel_0.9.1          cluster_2.1.2         
+[81] fs_1.5.2               magrittr_2.0.2         data.table_1.14.2      scattermore_0.8       
+[85] reprex_2.0.1           lmtest_0.9-40          RANN_2.6.1             fitdistrplus_1.1-8    
+[89] pkgload_1.2.4          hms_1.1.1              patchwork_1.1.1        mime_0.12             
+[93] xtable_1.8-4           XML_3.99-0.9           readxl_1.3.1           gridExtra_2.3         
+[97] testthat_3.1.2         compiler_4.1.1         KernSmooth_2.23-20     crayon_1.5.1          
+[101] htmltools_0.5.2        tzdb_0.2.0             mgcv_1.8-39            later_1.3.0           
+[105] geneplotter_1.70.0     lubridate_1.8.0        DBI_1.1.2              tweenr_1.0.2          
+[109] dbplyr_2.1.1           MASS_7.3-56            Matrix_1.4-1           brio_1.1.3            
+[113] cli_3.2.0              igraph_1.2.11          pkgconfig_2.0.3        plotly_4.10.0         
+[117] spatstat.sparse_2.1-0  xml2_1.3.3             annotate_1.70.0        XVector_0.32.0        
+[121] rvest_1.0.2            callr_3.7.0            digest_0.6.29          sctransform_0.3.3     
+[125] RcppAnnoy_0.0.19       spatstat.data_2.1-2    Biostrings_2.60.2      cellranger_1.1.0      
+[129] leiden_0.3.9           uwot_0.1.11            shiny_1.7.1            lifecycle_1.0.1       
+[133] nlme_3.1-157           jsonlite_1.8.0         desc_1.4.1             viridisLite_0.4.0     
+[137] fansi_1.0.3            pillar_1.7.0           lattice_0.20-45        KEGGREST_1.32.0       
+[141] fastmap_1.1.0          httr_1.4.2             pkgbuild_1.3.1         survival_3.3-1        
+[145] glue_1.6.2             remotes_2.4.2          png_0.1-7              bit_4.0.4             
+[149] ggforce_0.3.3          stringi_1.7.6          blob_1.2.2             memoise_2.0.1         
+[153] irlba_2.3.5            future.apply_1.8.1  
